@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import "@/assets/style";
+import "@/assets/style/index.css";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";

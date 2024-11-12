@@ -9,7 +9,7 @@ type Props = {
 
 export default function Container({ children, className, ...props }: Props) {
   return (
-    <SafeAreaView className={`container p-8 pt-12  ${className}`} {...props}>
+    <SafeAreaView className={`container pt-12 relative ${className}`} {...props}>
       {children}
     </SafeAreaView>
   );
