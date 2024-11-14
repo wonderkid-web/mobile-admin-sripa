@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Admin Sripa",
-    "slug": "Admin Sripa",
+    "slug": "expo-admin-sripa",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon":"./assets/images/SRIPA.png",
