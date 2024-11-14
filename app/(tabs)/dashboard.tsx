@@ -10,7 +10,6 @@ export default function Dashboard({}: Props) {
   return (
     <Container>
       <Text>Dashboard</Text>
-
     </Container>
   );
 }

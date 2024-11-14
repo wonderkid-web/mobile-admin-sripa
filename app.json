@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "expo-admin-sripa",
-    "slug": "expo-admin-sripa",
+    "name": "Admin Sripa",
+    "slug": "Admin Sripa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/SRIPA.png",
+    "icon":"./assets/images/SRIPA.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -12,13 +12,15 @@
       "resizeMode": "contain"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mwahyuap.expoadminsripa"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/SRIPA.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mwahyuap.expoadminsripa"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e6b4f86e-bd34-461b-a06c-e99d934dfe0c"
+      }
     }
   }
 }
