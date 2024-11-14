@@ -16,6 +16,7 @@ function RootLayout() {
     TajawalLight: require("../assets/fonts/Tajawal-Light.ttf"),
     TajawalRegular: require("../assets/fonts/Tajawal-Regular.ttf"),
     TajawalBold: require("../assets/fonts/Tajawal-Bold.ttf"),
+    Quran: require("../assets/fonts/Quran.otf")
   });
 
   useEffect(() => {

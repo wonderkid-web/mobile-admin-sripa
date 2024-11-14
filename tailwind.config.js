@@ -8,10 +8,12 @@ module.exports = {
       fontFamily:{
         "Tajawal": ["TajawalRegular", "sans-serif"],
         "Tajawal-Light": ["TajawalLight", "sans-serif"],
-        "Tajawal-Bold": ["TajawalBold", "sans-serif"]
+        "Tajawal-Bold": ["TajawalBold", "sans-serif"],
+        "Quran": ["Quran", "TajawalLight"]
       },
       colors:{
-        "primary": "#20665c"
+        "primary": "#20665c",
+        "secondary": "#30665c"
       }
     },
   },

@@ -35,8 +35,8 @@ export default function GroupTimeSection() {
               className="bg-white w-[45%] h-fit rounded-md flex justify-center items-center py-2 shadow-md"
               key={name}
             >
-              <Text style={TextStyle.large}>{time}</Text>
-              <Text style={TextStyle.paragraph}>{name}</Text>
+              <Text className="text-primary" style={TextStyle.large}>{time}</Text>
+              <Text className="text-primary" style={TextStyle.paragraph}>{name}</Text>
             </View>
           ))}
         </View>

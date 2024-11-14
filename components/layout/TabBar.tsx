@@ -1,14 +1,11 @@
 import { View, Text, TouchableOpacity } from "react-native";
-import { router, useNavigation } from "expo-router";
+import { router } from "expo-router";
 import { useRouteInfo } from "expo-router/build/hooks";
 import { TextStyle } from "@/assets/style";
 import { tabs_link } from "@/constant";
 
 export default function TabBar() {
   const { pathname } = useRouteInfo();
-  
-
-  const navigate = useNavigation()
 
   return (
     <View
@@ -26,16 +23,6 @@ export default function TabBar() {
           <Text style={TextStyle.small}>{tab.name}</Text>
         </TouchableOpacity>
       ))}
-       <TouchableOpacity
-          
-          className="flex flex-col justify-center items-center gap-1"
-          onPress={() => navigate.goBack()}
-        >
-          <View>
-
-          </View>
-          <Text style={TextStyle.small}>TEST</Text>
-        </TouchableOpacity>
     </View>
   );
 }

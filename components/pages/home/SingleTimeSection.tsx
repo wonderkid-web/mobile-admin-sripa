@@ -12,7 +12,7 @@ export default function SingleTimeSection() {
       >
         {format(new Date(), "HH:mm")}
       </Text>
-      <Text className="relative bottom-3" style={TextStyle.paragraph}>
+      <Text className="text-secondary relative bottom-3" style={TextStyle.paragraph}>
         Medan
       </Text>
     </View>
