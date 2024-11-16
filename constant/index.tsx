@@ -3,6 +3,7 @@ import { OpaqueColorValue } from "react-native";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import Octicons from "@expo/vector-icons/Octicons";
 import AntDesign from "@expo/vector-icons/AntDesign";
+import { SurahType, SurahTypeCallback } from "@/types";
 
 export const marginPattern = ["", "-mt-8", "-mt-16", "-mt-16"];
 
@@ -31,7 +32,7 @@ export const tabs_link: {
   },
 ];
 
-export const SURAH = [
+export const SURAH : SurahTypeCallback["item"] = [
   {
     number: 1,
     name: "سُورَةُ ٱلْفَاتِحَةِ",

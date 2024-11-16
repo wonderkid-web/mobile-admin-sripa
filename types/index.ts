@@ -6,3 +6,10 @@ export type SurahType = {
     numberOfAyahs: number;
     revelationType: "Meccan" | "Medinan";
   };
+
+
+export type SurahTypeCallback = {
+    item: SurahType[],
+    index?: string
+  }
+  
